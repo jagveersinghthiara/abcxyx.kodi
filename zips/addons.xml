@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="abcxyx.kodi" name="abcxyz.kodi" version="0.0.1" provider-name="jagv">
+	<extension point="xbmc.addon.repository" name="abcxyz.kodi">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/jagveersinghthiara/abcxyx.kodi/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/jagveersinghthiara/abcxyx.kodi/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/jagveersinghthiara/abcxyx.kodi/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">testrepo</summary>
+		<description lang="en">test repository description.</description>
+		<genre>music</genre>
+	</extension>
+</addon>
+
+<addon id="plugin.video.testjag" name="envaudio.plugin" version="0.0.1" provider-name="envaudio.jagveer">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">envaudio summery</summary>
+		<description lang="en">envaudio Full add-on description.</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre>movies,music</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+</addons>
